@@ -21,4 +21,3 @@ spec:
         - 
           name: worker-app
           image: dockersamples/examplevotingapp_worker
-
