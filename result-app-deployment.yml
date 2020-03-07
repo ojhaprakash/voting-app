@@ -1,7 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myademo-voting-apppp
+  name: result-app-deployment
+  labels:
+    app: demo-voting-app
 spec:
   selector:
     matchLabels:

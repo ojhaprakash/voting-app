@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-voting-app
+  name: redis-deployment
   labels:
-    app: redis
+    app: demo-voting-app
 spec:
   replicas: 1
   selector:
